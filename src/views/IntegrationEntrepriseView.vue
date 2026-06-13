@@ -1,6 +1,10 @@
 <template>
   <section class="page-section">
     <h1>Page intégration en entreprise</h1>
+    <p class="intro">
+      Cette partie présente les missions que j’ai réalisées en dehors du développement du site,
+      notamment les échanges avec les clients.
+    </p>
 
     <nav class="subnav" aria-label="Sous-pages de l'intégration en entreprise">
       <RouterLink to="/integration-entreprise" class="subnav-link">Rôle dans l'entreprise</RouterLink>
@@ -20,9 +24,18 @@
 }
 
 h1 {
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   color: #1e2c3a;
   font-size: clamp(2rem, 5vw, 3.2rem);
+  text-align: center;
+}
+
+.intro {
+  max-width: 820px;
+  margin: 0 auto 24px;
+  color: #465768;
+  font-size: 1.08rem;
+  line-height: 1.7;
   text-align: center;
 }
 
